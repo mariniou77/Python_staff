@@ -1,6 +1,6 @@
 # opening a file from the same directory
 # r = reading, w = writing, a = append, r+ = read and write
-employees_file = open("employees.txt", "r")
+employees_file = open("basics_in_python/employees.txt", "r")
 
 # this will return a boolean that shows if the file is actually readable
 print(employees_file.readable())
