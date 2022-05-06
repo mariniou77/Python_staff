@@ -1,6 +1,6 @@
 # opening a file from the same directory
 # r = reading, w = writing, a = append, r+ = read and write
-employees_file = open("basics_in_python/employees.txt", "r")
+employees_file = open("employees.txt", "r")
 
 # this will return a boolean that shows if the file is actually readable
 print(employees_file.readable())
@@ -19,7 +19,7 @@ print(employees_file.readlines())
 
 # # access to one specific line-element of the list
 # to check this comment out the command above
-print(employees_file.readlines()[1])
+print(employees_file.readlines()[3])
 
 # print all the employees in a for loop from the list tha readlines made
 # # to check this comment out the commands above
