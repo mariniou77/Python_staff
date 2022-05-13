@@ -1,5 +1,5 @@
-from Item import Item
-from Phone import Phone
+from item import Item
+from phone import Phone
 
 # item1 = Item("Phone", 350, 3)
 # item2 = Item("Laptop", 1000, 6)
@@ -20,7 +20,7 @@ from Phone import Phone
 # Item.instantiate_from_csv()
 # print(Item.all)
 
-# To check the inheritance with the Phone class comment out everuthing above
+# To check the inheritance with the Phone class comment out everything above
 item = Item("Laptop", 1000, 6)
 print(item)
 phone = Phone("Iphone 12 pro max", 1380, 5, 2019)
