@@ -34,8 +34,8 @@ class Item:
                 name = item.get("name"),
                 price = float(item.get("price")),
                 quantity = int(item.get("quantity"))
-            )
+            )            
 
     # With this magic function we have a prettier and more understanding view of all the instances we put in the list "all"
     def __repr__(self):
-        return f"Item ('{self.name}', {self.price}, {self.quantity})"     
+        return f"{self.__class__.__name__}('{self.name}', {self.price}, {self.quantity})"     

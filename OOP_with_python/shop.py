@@ -1,4 +1,5 @@
 from Item import Item
+from Phone import Phone
 
 # item1 = Item("Phone", 350, 3)
 # item2 = Item("Laptop", 1000, 6)
@@ -16,5 +17,13 @@ from Item import Item
 # print(item1.price)
 
 # If I want to make the instances from the csv file I have to comment out the lines that making manually instances 
-Item.instantiate_from_csv()
+# Item.instantiate_from_csv()
+# print(Item.all)
+
+# To check the inheritance with the Phone class comment out everuthing above
+item = Item("Laptop", 1000, 6)
+print(item)
+phone = Phone("Iphone 12 pro max", 1380, 5, 2019)
+print(phone)
+print(phone.release_date)
 print(Item.all)
